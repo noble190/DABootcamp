@@ -76,6 +76,3 @@ A major limitation of this dataset is the # of records. It may be usable to gene
 This dataset may be used to analyze the likelyhood of success of kickstarter projects per category, per country, using a combination of a pivot table (outcomes on Columns & Values, country on Rows) and a pivot chart (stacked bar chart would be appropriate). This may help make recommendations as to whether a particular project category is viable in a target country.
 
 <hr>
-<hr>
-<hr>
-
