@@ -4,6 +4,10 @@
 
 This project utilizes Kickstarter crowdsourcing data across a range of years and project categories / subcategories together with the analytic capabilities of MS Excel: namely, formulae, pivot tables, and charts.
 
+The following excel spreadsheet was used for all analytics for this project:
+
+[Data Spreadsheet](https://github.com/noble190/DABootcamp/blob/main/Kickstarter_Challenge.xlsx)
+
 ### Purpose
 
 My purpose is to analyze the relationships between launch dates / funding goals and Kickstarter project outcomes in order to be able to make productive recommendations to maximuze the likelyhood of a successful Kickstarter project.
