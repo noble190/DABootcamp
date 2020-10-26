@@ -20,6 +20,12 @@ The pivot table fields were set up as follows:
 
 ![Pivot Table Fields](https://github.com/noble190/DABootcamp/blob/main/resources/pivotTableFields.png)
 
+Afterwards, the Date values were grouped by month, and the outcome values were sorted. The 'Parent Category' chart filter was set to 'theater'.
+
+The resulting pivot table looks just like the example in the assignment:
+
+
+
 
 ### Analysis of Outcomes Based on Goals
 
