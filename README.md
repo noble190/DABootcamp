@@ -24,10 +24,19 @@ Afterwards, the Date values were grouped by month, and the outcome values were s
 
 The resulting pivot table looks just like the example in the assignment:
 
+![Pivot Table](https://github.com/noble190/DABootcamp/blob/main/resources/pivotTable.png)
 
+A Line Chart with Markers was used to plot the data. Afterwards, line colours were adjusted to match the palette in the assignment example:
 
+![Chart 1](https://github.com/noble190/DABootcamp/blob/main/resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
+
+A variety of excel formulas was used in order to analyze the impact of funding goals on project outcomes.
+
+My starting point were the 8 columns and 12 value ranges provided in the assignment description. Afterwards, I have used the 'COUNTIFS' formula for each permutation of value range and outcome for the 'plays' category. I have structured my formula as follows:
+
+
 
 ### Challenges and Difficulties Encountered
 
