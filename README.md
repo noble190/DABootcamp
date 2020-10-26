@@ -36,12 +36,21 @@ A variety of excel formulas was used in order to analyze the impact of funding g
 
 My starting point were the 8 columns and 12 value ranges provided in the assignment description. Afterwards, I have used the 'COUNTIFS' formula for each permutation of value range and outcome for the 'plays' category. I have structured my formula as follows:
 
+![CountIfs Formula Breakdown](https://github.com/noble190/DABootcamp/blob/main/resources/countIfsExplained.png)
 
+The remaining formulas were relatively straightforward. The 'Total Projects' column was populated using the Sum formula on the 'Number' columns for each respective row. The 'Percentage' columns were populated by simple division and formatted as percentages with 0 decimal points.
+
+A simple Line Chart was used to plot the data. Specific columns were selected just prior to inserting the chart:
+
+![Chart 2](https://github.com/noble190/DABootcamp/blob/main/resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 
+I have not encountered significant challenges with this assignment. One potential difficulty that could be encountered would be the conversion of value ranges for the Outcomes vs Goals analysis to COUNTIFS criteria. I have simply used multiple criteria where the range was between two concrete numbers, but this may not be immediately apparent. I'm not sure if it's possible to have composite conditions as COUNTIFS criteria (for example, something like ">=1000 && <5000").
+
 ## Results
 
+### Conclusions - Outcomes based on Launch Date
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
 - What can you conclude about the Outcomes based on Goals?
