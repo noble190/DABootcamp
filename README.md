@@ -4,7 +4,7 @@
 
 This project utilizes Kickstarter crowdsourcing data across a range of years and project categories / subcategories together with the analytic capabilities of MS Excel: namely, formulae, pivot tables, and charts.
 
-The following excel spreadsheet was used for all analytics for this project:
+The following excel spreadsheet was used for all analytics for this project (File was not compressed as the resulting space savings were negligible):
 
 [Data Spreadsheet](https://github.com/noble190/DABootcamp/blob/main/Kickstarter_Challenge.xlsx)
 
@@ -54,11 +54,28 @@ I have not encountered significant challenges with this assignment. One potentia
 
 ## Results
 
-### Conclusions - Outcomes based on Launch Date
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+### Conclusion - Outcomes based on Launch Date
 
-- What can you conclude about the Outcomes based on Goals?
+Upon analyzing the data for funding outcomes based on the launch month of kickstarter campaign for the 'theatre category', two conclusions are evident:
 
-- What are some limitations of this dataset?
+1. The majority of campaigns are launched during the period of late spring to summer. 
 
-- What are some other possible tables and/or graphs that we could create?
+2. Campaigns are most likely to succeed in the months of May and June, and are least likely to succeed in the month of December.
+
+### Conclusion - Outcomes based on Funding Goals
+
+Upon analyzing the data for funding outcomes based on funding goals, it is evident that projects with funding goals between $1000 and $4999 are most likely to be funded, with a 73% percent likelyhood of success. The likelyhood of funding success for theatre projects appears to decrease as funding goal increases.
+
+### Limitations of Dataset
+
+A major limitation of this dataset is the # of records. It may be usable to generate a high-level summary across all countries, categories, and years, but is not sufficiently large for more detailed analysis. One example is the above analysis of outcomes based on funding goals - once filtered by the 'theatre' category, there is insufficient data to reliably predict outcomes for the higher funding goal ranges. If an additional set of filters is applied (for example, targetting a single country), there may be insufficient data for any sort of analysis.
+
+
+### Recommendations for additional analysis
+
+This dataset may be used to analyze the likelyhood of success of kickstarter projects per category, per country, using a combination of a pivot table (outcomes on Columns & Values, country on Rows) and a pivot chart (stacked bar chart would be appropriate). This may help make recommendations as to whether a particular project category is viable in a target country.
+
+<hr>
+<hr>
+<hr>
+
