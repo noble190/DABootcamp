@@ -18,7 +18,7 @@ In order to implement the required filters on the pivot table, the initial datas
 
 The pivot table fields were set up as follows:
 
-![Pivot Table Fields](resources\pivotTableFields.png?raw=true)
+![Pivot Table Fields](https://github.com/noble190/DABootcamp/blob/main/resources/pivotTableFields.png)
 
 
 ### Analysis of Outcomes Based on Goals
