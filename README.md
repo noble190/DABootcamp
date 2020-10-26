@@ -16,6 +16,9 @@ An Excel pivot table / chart combination was used in order to analyze the impact
 
 In order to implement the required filters on the pivot table, the initial dataset had to be modified with a few additional columns. Firstly, the 'Category and Subcategory' column was split into 'Parent Category' and 'Subcategory' columns using the Excel Text to Columns functionality in order to facilitate filtering by the 'Theater' parent category. Finally, a 'Years' column was created with values populated by the Year() formula and data from the previously created 'Date Created Conversion' column in order to facilitate filtering by year.
 
+The pivot table fields were set up as follows:
+
+![Pivot Table Fields](resources\pivotTableFields.png?raw=true)
 
 
 ### Analysis of Outcomes Based on Goals
